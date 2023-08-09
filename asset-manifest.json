@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/univan-react/static/css/main.e6c13ad2.css",
+    "main.js": "/univan-react/static/js/main.cabf27a2.js",
+    "static/js/787.1cc7cc3f.chunk.js": "/univan-react/static/js/787.1cc7cc3f.chunk.js",
+    "index.html": "/univan-react/index.html",
+    "main.e6c13ad2.css.map": "/univan-react/static/css/main.e6c13ad2.css.map",
+    "main.cabf27a2.js.map": "/univan-react/static/js/main.cabf27a2.js.map",
+    "787.1cc7cc3f.chunk.js.map": "/univan-react/static/js/787.1cc7cc3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.cabf27a2.js"
+  ]
+}
