@@ -2,16 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 
-import GoogleLoginComponent from './components/GoogleLoginComponent';
-
 function App() {
   const [response, setResponse] = useState('');
-
-const [uid, setUID] = useState('');
-
-  const handleLoginSuccess = (userUID) => {
-    setUID(userUID);
-  };
 
   const handleClick = async () => {
     try {
@@ -20,7 +12,7 @@ const [uid, setUID] = useState('');
 
       const requestBody = {
         action: 'get-routes',
-        uid: process.env.uid
+        uid: "leao.rafinha@gmail.com"
       };
 
       const config = {
@@ -43,13 +35,6 @@ const [uid, setUID] = useState('');
       <pre>{response}</pre>
 	  
 	  
-      {uid ? (
-        <div>
-          Logged in with UID: {uid}
-        </div>
-      ) : (
-        <GoogleLoginComponent onLoginSuccess={handleLoginSuccess} />
-      )}
     </div>
   );
 }
